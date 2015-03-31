@@ -29,33 +29,32 @@
     "gulp-coffeelint": "~0.4.0",
     "gulp-angular-filesort": "~1.0.4",
     "gulp-consolidate": "~0.1.2",
-    "express": "~4.9.x"
-  },
-  "scripts": {
-    "start": "node app",
-    "install": "gulp default"
-  },
-  "devDependencies": {
+    "browser-sync": "~2.1.4",
+    "express": "~4.9.x",
+    "wrench": "~1.5.8",
+    "wiredep": "~2.2.0",
+    "http-proxy": "~1.8.0",
+    "browser-sync-spa": "~1.0.1",
+    "chalk": "~0.5.1",
+    "karma": "~0.12.31",
+    "karma-jasmine": "~0.3.1",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "karma-ng-html2js-preprocessor": "~0.1.2",
     "del": "~1.1.1",
     "haml": "~0.4.3",
     "main-bower-files": "~2.5.0",
     "merge-stream": "~0.1.7",
     "jshint-stylish": "~1.0.0",
-    "wiredep": "~2.2.0",
-    "karma": "~0.12.31",
-    "karma-jasmine": "~0.3.1",
-    "karma-phantomjs-launcher": "~0.1.4",
-    "karma-ng-html2js-preprocessor": "~0.1.2",
     "concat-stream": "~1.4.7",
     "require-dir": "~0.1.0",
-    "browser-sync": "~2.1.4",
-    "browser-sync-spa": "~1.0.1",
-    "http-proxy": "~1.8.0",
-    "chalk": "~0.5.1",
     "protractor": "~1.7.0",
-    "uglify-save-license": "~0.4.1",
-    "wrench": "~1.5.8"
+    "uglify-save-license": "~0.4.1"
   },
+  "scripts": {
+    "start": "node app",
+    "install": "gulp build"
+  },
+  "devDependencies": {},
   "engines": {
     "node": ">=0.10.0"
   }
